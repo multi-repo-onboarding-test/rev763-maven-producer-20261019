@@ -1,0 +1,8 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example.access</groupId>
+  <artifactId>access-parent</artifactId>
+  <version>7.204.2</version>
+  <packaging>pom</packaging>
+  <modules><module>access-client</module></modules>
+</project>
