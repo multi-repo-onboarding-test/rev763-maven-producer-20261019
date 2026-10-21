@@ -8,7 +8,7 @@ public final class AccessClient {
         if (token == null) {
             return false;
         }
-        String normalizedToken = token.trim();
+        final String normalizedToken = token.trim();
         return normalizedToken.length() >= MIN_TOKEN_LENGTH;
     }
 }
